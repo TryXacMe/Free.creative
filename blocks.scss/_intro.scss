@@ -1,0 +1,15 @@
+.intro {
+  &__container {
+    background-image: url(../assents/backgraund__img.png);
+    padding-top: 277px;
+    padding-left: 150px;
+  }
+
+  &__title {
+    width: 700px;
+    font-family: "20 Kopeek Book";
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+  }
+}

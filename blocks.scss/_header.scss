@@ -1,0 +1,63 @@
+.header {
+  &__container {
+    background-image: url(../assents/backgraund__img.png);
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__logos {
+    display: flex;
+    gap: 22px;
+  }
+
+  &__text {
+    width: 193px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+  }
+
+  &__Nbtn {
+    padding: 7px 33px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background: transparent;
+  }
+
+  &__Fbtn {
+    padding-top: 12px;
+    padding-right: 11px;
+    padding-left: 11px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 50px;
+  }
+
+  &__Ibtn {
+    padding-top: 12px;
+    padding-right: 11px;
+    padding-left: 13px;
+    padding-bottom: 9px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 50px;
+  }
+}
