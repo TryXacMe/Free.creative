@@ -216,6 +216,7 @@ header {
   color: #181818;
 }
 .costs__content {
+  padding-left: 260px;
   display: flex;
   align-items: center;
   justify-content: start;
