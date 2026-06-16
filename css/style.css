@@ -18,7 +18,7 @@ header {
 }
 
 .container {
-  width: 1200px;
+  width: 1680px;
   margin: 0 auto;
 }
 
@@ -81,7 +81,7 @@ header {
 .intro__container {
   background-image: url(../assents/backgraund__img.png);
   padding-top: 277px;
-  padding-left: 150px;
+  padding-left: 260px;
 }
 .intro__title {
   width: 700px;
@@ -89,4 +89,152 @@ header {
   font-size: 55px;
   line-height: 100%;
   color: #181818;
+}
+.intro__text {
+  margin-top: 20px;
+  width: 528px;
+  font-family: "20 Kopeek Book";
+  font-size: 34px;
+  line-height: 110%;
+  color: #181818;
+}
+.intro__btn {
+  margin-top: 65px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 23px 47px;
+  gap: 10px;
+  width: 186px;
+  height: 71px;
+  background: #ffffff;
+  border-radius: 40px;
+  border: none;
+}
+.intro__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding-bottom: 340px;
+}
+
+.jems__container {
+  padding-left: 260px;
+}
+.jems__title {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.jems__content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+}
+.jems__texts {
+  width: 445px;
+}
+.jems__text {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.jems__text2 {
+  margin-top: 60px;
+}
+
+.style__title {
+  margin-top: 150px;
+  width: 1680px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  padding-left: 260px;
+  padding-right: 180px;
+}
+.style__block {
+  display: flex;
+  align-item: start;
+  justify-content: center;
+  gap: 90px;
+}
+.style__text {
+  margin-top: 40px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: #181818;
+}
+.style__sub1 {
+  width: 83px;
+  height: 50px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.style__sub2 {
+  height: 100px;
+  font-size: 18px;
+}
+
+.costs__title {
+  padding-right: 350px;
+  margin-bottom: 15px;
+  text-align: end;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.costs__content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 82px;
+}
+.costs__text {
+  width: 396px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.costs__bgtext {
+  padding: 13px 11px;
+  color: white;
+  background: #2b59c3;
+  border-radius: 5px;
+  width: 416px;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */

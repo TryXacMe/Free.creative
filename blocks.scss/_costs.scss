@@ -1,0 +1,39 @@
+.costs {
+  &__title {
+    padding-right: 350px;
+    margin-bottom: 15px;
+    text-align: end;
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    color: #181818;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 82px;
+  }
+
+  &__text {
+    width: 396px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+  }
+
+  &__bgtext {
+    padding: 13px 11px;
+    color: white;
+    background: #2b59c3;
+    border-radius: 5px;
+    width: 416px;
+    margin-top: 50px;
+  }
+}

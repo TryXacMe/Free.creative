@@ -2,7 +2,7 @@
   &__container {
     background-image: url(../assents/backgraund__img.png);
     padding-top: 277px;
-    padding-left: 150px;
+    padding-left: 260px;
   }
 
   &__title {
@@ -11,5 +11,46 @@
     font-size: 55px;
     line-height: 100%;
     color: #181818;
+  }
+
+  &__text {
+    margin-top: 20px;
+    width: 528px;
+    font-family: "20 Kopeek Book";
+    font-size: 34px;
+    line-height: 110%;
+    color: #181818;
+  }
+
+  &__btn {
+    margin-top: 65px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 47px;
+    gap: 10px;
+    width: 186px;
+    height: 71px;
+    background: #ffffff;
+    border-radius: 40px;
+    border: none;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-bottom: 340px;
   }
 }

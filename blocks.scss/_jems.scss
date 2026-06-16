@@ -1,0 +1,40 @@
+.jems {
+  &__container {
+    padding-left: 260px;
+  }
+
+  &__title {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    color: #181818;
+  }
+
+  &__content {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+  }
+
+  &__texts {
+    width: 445px;
+  }
+
+  &__text {
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+  }
+
+  &__text2 {
+    margin-top: 60px;
+  }
+}
