@@ -1,0 +1,54 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    &__container {
+      position: fixed;
+      background-image: url(../assents/phone__intro.png);
+      background-repeat: no-repeat;
+      margin-left: 30px;
+      width: 360px;
+    }
+
+    &__navbar {
+      display: none;
+    }
+  }
+
+  .intro {
+    &__container {
+      background-image: url(../assents/phone__intro.png);
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      width: 360px;
+      padding-left: 40px;
+      padding-top: 150px;
+    }
+
+    &__title {
+      width: 240px;
+      font-family: "20 Kopeek";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 110%;
+      color: #ffffff;
+    }
+
+    &__text {
+      width: 184px;
+      font-family: "20 Kopeek";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 110%;
+      color: #ffffff;
+    }
+
+    &__btn1 {
+        margin-top: 20px;
+    }
+
+    &__buttons {
+        flex-wrap: wrap-reverse;
+    }
+  }
+}

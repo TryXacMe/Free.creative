@@ -14,7 +14,7 @@
   }
 
   &__text {
-    margin-top: 20px;
+    padding-top: 20px;
     width: 528px;
     font-family: "20 Kopeek Book";
     font-size: 34px;
@@ -23,7 +23,6 @@
   }
 
   &__btn {
-    margin-top: 65px;
     font-family: "20 Kopeek";
     font-style: normal;
     font-weight: 400;
@@ -39,11 +38,15 @@
     align-items: center;
     padding: 23px 47px;
     gap: 10px;
-    width: 186px;
     height: 71px;
     background: #ffffff;
     border-radius: 40px;
     border: none;
+  }
+
+  &__btn1 ,
+  &__btn2 {
+    margin-top: 65px;
   }
 
   &__buttons {

@@ -91,7 +91,7 @@ header {
   color: #181818;
 }
 .intro__text {
-  margin-top: 20px;
+  padding-top: 20px;
   width: 528px;
   font-family: "20 Kopeek Book";
   font-size: 34px;
@@ -99,7 +99,6 @@ header {
   color: #181818;
 }
 .intro__btn {
-  margin-top: 65px;
   font-family: "20 Kopeek";
   font-style: normal;
   font-weight: 400;
@@ -115,11 +114,13 @@ header {
   align-items: center;
   padding: 23px 47px;
   gap: 10px;
-  width: 186px;
   height: 71px;
   background: #ffffff;
   border-radius: 40px;
   border: none;
+}
+.intro__btn1, .intro__btn2 {
+  margin-top: 65px;
 }
 .intro__buttons {
   display: flex;
@@ -237,6 +238,51 @@ header {
   color: white;
   background: #2b59c3;
   border-radius: 5px;
-  width: 416px;
+  width: 445px;
   margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header__container {
+    position: fixed;
+    background-image: url(../assents/phone__intro.png);
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    width: 360px;
+  }
+  .header__navbar {
+    display: none;
+  }
+  .intro__container {
+    background-image: url(../assents/phone__intro.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 360px;
+    padding-left: 40px;
+    padding-top: 150px;
+  }
+  .intro__title {
+    width: 240px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #ffffff;
+  }
+  .intro__text {
+    width: 184px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    color: #ffffff;
+  }
+  .intro__btn1 {
+    margin-top: 20px;
+  }
+  .intro__buttons {
+    flex-wrap: wrap-reverse;
+  }
 }/*# sourceMappingURL=style.css.map */
