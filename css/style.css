@@ -243,20 +243,24 @@ header {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    margin: 0 auto;
+  }
   .header__container {
     position: fixed;
-    background-image: url(../assents/phone__intro.png);
+    background: transparent;
     background-repeat: no-repeat;
-    margin-left: 30px;
     width: 360px;
   }
   .header__navbar {
     display: none;
   }
+  .header__logo {
+    padding-left: 70px;
+  }
   .intro__container {
     background-image: url(../assents/phone__intro.png);
     background-repeat: no-repeat;
-    margin: 0 auto;
     width: 360px;
     padding-left: 40px;
     padding-top: 150px;
@@ -284,5 +288,117 @@ header {
   }
   .intro__buttons {
     flex-wrap: wrap-reverse;
+    padding-bottom: 40px;
+    margin-bottom: 0;
   }
+  .jems__container {
+    padding-left: 60px;
+    margin: 0 auto;
+  }
+  .jems__title {
+    width: 290px;
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #181818;
+  }
+  .jems__text2 {
+    margin-top: 20px;
+  }
+  .jems__content {
+    display: block;
+  }
+  .jems__img {
+    width: 290px;
+  }
+  .jems__text {
+    width: 290px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #181818;
+  }
+}
+.brends__container {
+  margin-top: 150px;
+  margin-left: 450px;
+}
+.brends__img {
+  margin-bottom: 38px;
+}
+.brends__titles {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 89px;
+}
+.brends__title {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.brends__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 23px 47px;
+  gap: 10px;
+  border: 1px solid #181818;
+  border-radius: 40px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 23px 47px;
+}
+.brends__text {
+  width: 222px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.brends__box {
+  margin-bottom: 53px;
+}
+.brends__btn {
+  margin-left: 450px;
+  border: none;
+  padding: 23px 47px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 23px 47px;
+  gap: 10px;
+  background: #2b59c3;
+  border-radius: 40px;
 }/*# sourceMappingURL=style.css.map */

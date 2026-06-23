@@ -1,15 +1,19 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .header {
+    margin: 0 auto;
     &__container {
       position: fixed;
-      background-image: url(../assents/phone__intro.png);
+      background: transparent;
       background-repeat: no-repeat;
-      margin-left: 30px;
       width: 360px;
     }
 
     &__navbar {
       display: none;
+    }
+
+    &__logo {
+      padding-left: 70px;
     }
   }
 
@@ -17,7 +21,6 @@
     &__container {
       background-image: url(../assents/phone__intro.png);
       background-repeat: no-repeat;
-      margin: 0 auto;
       width: 360px;
       padding-left: 40px;
       padding-top: 150px;
@@ -44,11 +47,52 @@
     }
 
     &__btn1 {
-        margin-top: 20px;
+      margin-top: 20px;
     }
 
     &__buttons {
-        flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+      padding-bottom: 40px;
+      margin-bottom: 0;
+    }
+  }
+
+  .jems {
+    &__container {
+      padding-left: 60px;
+      margin: 0 auto;
+    }
+
+    &__title {
+      width: 290px;
+      font-family: "20 Kopeek Book";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 110%;
+      color: #181818;
+    }
+
+    &__text2 {
+      margin-top: 20px;
+    }
+
+    &__content {
+      display: block;
+    }
+
+    &__img {
+      width: 290px;
+    }
+
+    &__text {
+      width: 290px;
+      font-family: "20 Kopeek";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 140%;
+      color: #181818;
     }
   }
 }
