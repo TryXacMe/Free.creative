@@ -382,6 +382,7 @@ header {
   margin-bottom: 53px;
 }
 .brends__btn {
+  margin-bottom: 100px;
   margin-left: 450px;
   border: none;
   padding: 23px 47px;
@@ -401,4 +402,43 @@ header {
   gap: 10px;
   background: #2b59c3;
   border-radius: 40px;
+}
+
+.suprise__title {
+  padding-left: 200px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+  margin-bottom: 15px;
+}
+.suprise__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.suprise__text1 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  color: #ffffff;
+  background: #2b59c3;
+  border-radius: 5px;
+  padding: 11px 39px 18px 14px;
+  margin-bottom: 15px;
+}
+.suprise__text {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  border-radius: 5px;
+  padding: 0 39px 0 14px;
+  color: #181818;
 }/*# sourceMappingURL=style.css.map */
