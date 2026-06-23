@@ -324,8 +324,8 @@ header {
   }
 }
 .brends__container {
-  margin-top: 150px;
-  margin-left: 450px;
+  padding-top: 150px;
+  padding-left: 270px;
 }
 .brends__img {
   margin-bottom: 38px;
