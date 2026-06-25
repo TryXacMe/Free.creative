@@ -441,4 +441,83 @@ header {
   border-radius: 5px;
   padding: 0 39px 0 14px;
   color: #181818;
+}
+
+.bid__container {
+  margin-top: 77px;
+  padding-left: 200px;
+}
+.bid__title {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.bid__text {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #181818;
+  margin-top: 11px;
+  margin-bottom: 27px;
+}
+.bid__info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  margin-bottom: 21px;
+}
+.bid__input {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #868686;
+}
+.bid__place1 {
+  padding: 23px 237px 23px 29px;
+  border-radius: 10px;
+  border: 1px solid #868686;
+}
+.bid__place2 {
+  padding: 23px 149px 23px 29px;
+  border-radius: 10px;
+  border: 1px solid #868686;
+}
+.bid__btn {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 23px 47px;
+  gap: 10px;
+  background: #2b59c3;
+  border-radius: 40px;
+  border: none;
+}
+.bid__check1 {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  margin-left: 7px;
+}
+.bid__check {
+  color: #2b59c3;
 }/*# sourceMappingURL=style.css.map */
