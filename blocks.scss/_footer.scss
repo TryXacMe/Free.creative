@@ -1,0 +1,40 @@
+.footer {
+    margin-top: 30px;
+    display: flex;
+    gap: 100px;
+
+    &__box {
+        width: 255px;
+        padding: 6px 80px 16px 13px;
+        color: #ffffff;
+        background: #2b59c3;
+        border-radius: 10px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &__p {
+        width: 162px;
+    }
+
+    &__p2 {
+        padding-top: 25px;
+    }
+
+    &__title {
+        margin-bottom: 14px;
+        margin-top: 127px;
+        padding-left: 290px;
+        font-family: "20 Kopeek Book";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 110%;
+        color: #181818;
+    }
+}

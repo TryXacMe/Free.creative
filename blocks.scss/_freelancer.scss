@@ -1,0 +1,77 @@
+.freelancer {
+    display: flex;
+    margin-top: 30px;
+
+    &__box1 {
+        height: 769px;
+    }
+
+    &__box2 {
+        height: 769px;
+    }
+
+    &__box3 {
+        height: 769px;
+    }
+
+    &__box4 {
+        height: 769px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    &__box1 {
+        width: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 100px;
+        background: #2b59c3;
+        border-radius: 10px;
+    }
+
+    &__box2 {
+        width: 300px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__box3 {
+        width: 300px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__box4 {
+        width: 300px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__title {
+        font-family: "20 Kopeek Book";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 110%;
+        color: #ffffff;
+    }
+    &__title2 {
+        font-family: "20 Kopeek Book";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 110%;
+        color: gray;
+    }
+}
