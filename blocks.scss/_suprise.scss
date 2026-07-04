@@ -1,43 +1,87 @@
 .suprise {
-    &__title {
-        padding-left: 200px;
-        font-family: "20 Kopeek Book";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 38px;
-        line-height: 110%;
-        color: #181818;
-        margin-bottom: 15px;
+  &__title {
+    padding-left: 200px;
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    color: #181818;
+    margin-bottom: 15px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__text1 {
+    width: 406px;
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+    color: #ffffff;
+    padding: 11px 39px 18px 14px;
+    margin-bottom: 15px;
+    width: 459px;
+    background: #2b59c3;
+    border-radius: 5px;
+  }
+
+  &__text {
+    width: 431px;
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    padding: 0 39px 0 14px;
+    color: #181818;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .suprise {
+    &__container {
+      padding-left: 60px;
     }
 
     &__content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
+      display: block;
+    }
+
+    &__texts {
+      width: 282px;
+    }
+
+    &__title {
+      padding-left: 0px;
+      width: 288px;
     }
 
     &__text1 {
-        font-family: "20 Kopeek Book";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 100%;
-        color: #ffffff;
-        background: #2b59c3;
-        border-radius: 5px;
-        padding: 11px 39px 18px 14px;
-        margin-bottom: 15px;
+      width: 288px;
+      font-family: "20 Kopeek Book";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 110%;
+      color: #ffffff;
     }
 
     &__text {
-        font-family: "20 Kopeek";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 100%;  
-        border-radius: 5px;
-        padding: 0 39px 0 14px;
-        color: #181818;
+      width: 288px;
+      font-family: "20 Kopeek";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 140%;
+      color: #181818;
     }
+  }
 }

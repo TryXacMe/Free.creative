@@ -38,3 +38,21 @@
         color: #181818;
     }
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer {
+        &__title {
+            padding-left: 60px;
+        }
+
+        &__info {
+            display: block;
+            padding-left: 60px;
+        }
+
+        &__box {
+            margin-top: 20px;
+        }
+    }
+}

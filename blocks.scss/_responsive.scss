@@ -95,4 +95,64 @@
       color: #181818;
     }
   }
+
+  .style {
+    &__title {
+      width: 350px;
+      font-family: "20 Kopeek Book";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 100%;
+      color: #181818;
+      padding-left: 60px;
+      padding-right: 0px;
+    }
+
+    &__block {
+      display: block;
+      padding-left: 60px;
+    }
+  }
+
+  .costs {
+    &__title {
+      width: 350px;
+      font-family: "20 Kopeek Book";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 110%;
+      color: #181818;
+      padding-left: 60px;
+      padding-right: 0;
+      text-align: start;
+    }
+
+    &__content {
+      flex-direction: column-reverse;
+      padding-left: 60px;
+      align-items: start;
+    }
+
+    &__img {
+      width: 289px;
+    }
+
+    &__box {
+      width: 292px;
+    }
+
+    &__text {
+      width: 292px;
+    }
+
+    &__bgtext {
+      width: 292px;
+    }
+  }
+
+  .footer__text {
+    padding-left: 60px;
+  }
 }

@@ -75,3 +75,9 @@
         color: gray;
     }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .freelancer {
+        display: none;
+    }
+}
